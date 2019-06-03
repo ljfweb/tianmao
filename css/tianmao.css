@@ -1,0 +1,267 @@
+.head{
+	width: 100%;
+	height: .9rem;
+	background: #ff4400;
+	display: flex;
+	justify-content: space-between;
+	padding: .1rem .1rem 0 .1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.head img{
+	width:.45rem;
+	height: .45rem;
+}
+.head_center{
+	width: 3.7rem;
+	height: .5rem;
+	background:#ff4400;
+	border-bottom: 2px solid white;
+	position: relative;
+}
+.head_center:before,.head_center:after{
+	content: "";
+	display: block;
+	width: 2px;
+	height: 3px;
+	background: white;
+	position: absolute;
+
+	bottom: 0;
+	z-index: 999;
+}
+.head_center:before{
+	left: 0;
+}
+.head_center:after{
+	right: 0 ;
+}
+.center_info{
+	width: 2.87rem;
+	height: .46rem;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	line-height: .46rem;
+
+}
+.head_center img{
+	width: .44rem;
+	height: .36rem;
+	margin-top: .1rem;
+	margin-left: .2rem;
+	
+}
+.head_center input{
+	width: 2.44rem;
+	height: .46rem;
+	border: none;
+	outline: none;
+	background: #ff4400;
+	/*text-align: center;*/
+	margin-left: .1rem;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #fff;
+  font-size: .26rem;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #fff;
+  font-size: .26rem;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #fff;
+  font-size: .26rem;
+}   
+.head div{
+	text-align: center;
+	color: white;
+	font-size: .26rem;
+}
+/*轮播部分*/
+.swiper-container{
+	height: 2.45rem;
+	margin-top: .9rem !important;
+	
+}
+.swiper-slide img{
+	width: 100%;
+	height: 2.45rem ;
+}
+.swiper-pagination-bullet-active{
+	background: white !important;
+}
+/*脚步*/
+.footer{
+	width: 100%;
+	height: .98rem;
+	position: fixed;
+	background: white;
+	bottom: 0;
+	left: 0;
+	
+}
+.footer ul{
+	width: 100%;
+	display: flex;
+	height: .98rem;
+	justify-content: space-around;
+	font-size: .28rem;
+	padding-top: .13rem;
+	
+}
+.footer ul li{
+	text-align: center;
+}
+.footer .active{
+	color: #FF4400;
+}
+.nav{
+	height: 3.44rem;
+	background: white;
+	margin-top: .2rem;
+}
+.nav ul{
+	width: 100%;
+	height: 3.44rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-top: .15rem;
+}
+.nav ul li{
+	width: 1.32rem;
+	height: 1.49rem;
+	text-align: center !important;
+}
+.nav ul li img{
+	width: 1.12rem;
+	height: 1.12rem;
+	
+}
+
+/*推荐部分*/
+.recommended{
+	height: 3.84rem;
+	background: white;
+	margin-top: .2rem;
+	display: flex;
+
+}
+.recommend_left{
+	width: 3.2rem;
+	height: 3.84rem;
+}
+.recommend_left img{
+	width: 3.2rem;
+	height: 3.84rem;
+}
+.recommend_right{
+	flex:1;
+	display:flex;
+	flex-direction: column;
+	
+}
+.recommend_right div:nth-child(1){
+	height: 1.32rem;
+	
+}
+.recommend_right div:nth-child(1) img{
+	width: 100%;
+	height: 1.32rem;
+}
+.recommend_right div:nth-child(2){
+	display: flex;
+	flex:1;
+}
+.recommend_right div:nth-child(2) img{
+	width: 50%;
+	height: 2.46rem;
+}
+/*商品部分*/
+.product{
+	background: white;
+	margin-top: .2rem;
+	margin-bottom: 1.8rem;
+}
+
+.pro_nav{
+	height: .74rem;
+	background: #EEEEEE;
+	display: flex;
+	justify-content: space-around;
+}
+.pro_nav li{
+	height: .74rem;
+	line-height: .74rem;
+	font-size: .26rem;
+}
+.pro_nav li:nth-child(4) i{
+	font-size: .40rem;
+}
+.pro_nav .active{
+	color:#FF4400;
+}
+.product_one{
+	display: flex;
+	height: 2rem;
+	border-bottom: 1px solid #eeeeee ;
+	padding-top: .17rem;
+	padding-left: .35rem;
+}
+.product_one img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.pro_img {
+	margin-right: .2rem;
+}
+.pname{
+	height: .83rem;
+	line-height: .41rem;
+	font-size: .3rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.price{
+	color: #FF4400;
+	font-size: .28rem;
+	margin-bottom: .1rem;
+}
+.count{
+	color: #999999;
+	font-size: .26rem;
+}
+.list_flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.list_flex .pro_flex{
+	display: block;
+	width: 50%;
+	height: 5.6rem;
+}
+.list_flex .pro_flex .pro_img img{
+	width: 100%;
+	height: 3.38rem;
+	
+}
+.list_flex .pro_flex {
+	border: none;
+}
+.pro_flex .count{
+	display: flex;
+	justify-content: space-between;
+
+}
+.pro_flex .pro_info{
+	padding-right: .2rem;
+}

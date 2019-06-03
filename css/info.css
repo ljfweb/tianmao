@@ -1,0 +1,142 @@
+body{
+	background: #f4f4f4;
+}
+.nav{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 .2rem 0 .2rem;
+	position: fixed;
+	left: 0;
+	background: rgba(255,255,255,0);
+	top: 0;
+	z-index: 999;
+	transition: all 0.5s;
+}
+.nav ul{
+	width: 3.5rem;
+	display: flex;
+	height: 1rem;
+	justify-content: space-between;
+	line-height:1rem;
+	
+}
+
+.nav ul li{
+	
+}
+
+.nav>div i{
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	border-radius:50%;
+	background: rgba(0,0,0,0.5);
+	font-size: .5rem;
+	color: white;
+	text-align: center;
+	line-height: 1rem;
+	transition: all 0.5s;
+	
+}
+.productSlide{
+	height: 7.5rem;
+	
+}
+.productSlide img{
+	width: 100%;
+	height: 7.5rem;
+}
+.pro_info{
+	height: 3.15rem;
+	background: white;
+	padding-left: .2rem;
+	padding-right: .2rem;
+}
+.pro_info>*{
+	margin-top: .2rem;
+}
+.price{
+	font-size: .5rem;
+	color: #FF0000;
+}
+.old_price{
+	font-size: .26rem;
+	color: #999999;
+	text-decoration: line-through;
+}
+.fenqi{
+	color: red;
+}
+.pname{
+	font-size: .3rem;
+}
+.pname i{
+	float: right;
+}
+
+.count{
+	color: #999;
+	display: flex;
+	font-size: .26rem;
+	justify-content: space-between;
+}
+.huodong{
+	height: 1.4rem;
+	background: white;
+	margin-top: .2rem;
+	padding: .2rem .2rem 0 .2rem;
+	margin-bottom: .86rem;
+}
+.huodong>div{
+	display: flex;
+	justify-content: space-between;
+	margin-top: .1rem;
+}
+ .title{
+	color: #ccc;
+}
+.huodong>div .t_red{
+	color: red;
+}
+/*脚步*/
+.info_foot{
+	height: .86rem;
+	background: white;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.info_foot ul{
+	width: 100%;
+	height: .86rem;
+	/*line-height: .86rem;*/
+	display: flex;
+	justify-content: flex-start;
+}
+.info_foot .foot_btn{
+	width: 1.06rem;
+	height: .86rem;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+	font-size: .28rem;
+	
+}
+.info_foot .foot_btn i{
+	font-size: .4rem;
+}
+.add_cart,.buy{
+	flex: 1;
+	line-height: .86rem;
+	color: white;
+	text-align: center;
+}
+.add_cart{
+	background: #fe9402;
+}
+.buy{
+	background: #fe0036;
+}
